@@ -34,4 +34,8 @@ origin {
     cloudfront_default_certificate = true
   }
 
+  price_class = var.cdn_price_class
+
+  tags = "${var.cdn_tags}"
+
 }
